@@ -3,7 +3,7 @@ from typing import List
 import shutil
 
 class Parser:
-    extensions=list[str]
+    extensions=list[str]=[]
 
     def valid_extension(self, extension):
         return extension in self.extensions
